@@ -1,0 +1,11 @@
+.form {
+    width: 700px;
+    background-color:#5F72BE;
+    background-image:
+    radial-gradient(circle at 100% 150%, #5F72BE 24%, #000 24%, #000 28%, #5F72BE 28%, #5F72BE 36%, #000 36%, #000 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #5F72BE 24%, #000 24%, #000 28%, #5F72BE 28%, #5F72BE 36%, #000 36%, #000 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #000 10%, #5F72BE 10%, #5F72BE 23%, #000 23%, #000 30%, #5F72BE 30%, #5F72BE 43%, #000 43%, #000 50%, #5F72BE 50%, #5F72BE 63%, #000 63%, #000 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #000 5%, #5F72BE 5%, #5F72BE 15%, #000 15%, #000 20%, #5F72BE 20%, #5F72BE 29%, #000 29%, #000 34%, #5F72BE 34%, #5F72BE 44%, #000 44%, #000 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, #000 5%, #5F72BE 5%, #5F72BE 15%, #000 15%, #000 20%, #5F72BE 20%, #5F72BE 29%, #000 29%, #000 34%, #5F72BE 34%, #5F72BE 44%, #000 44%, #000 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+}
