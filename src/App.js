@@ -118,7 +118,6 @@ class App extends React.Component {
 
   calculateNumParticles = () => {
     const screenWidth = window.innerWidth;
-    console.log(screenWidth)
     let numParticles = 0;
 
     if (screenWidth >= 1200) {
