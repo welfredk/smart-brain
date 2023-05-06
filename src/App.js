@@ -85,7 +85,7 @@ class App extends React.Component {
     })
       .then(response => response.json()) // <-- Fix here
       .then(result => {
-        if (result && result.outputs && result.outputs.length > 0) {
+        if (result.status.description === "Ok") {
             fetch('https://smartbrainserver-fhye.onrender.com/image', {
                 method: 'put',
                 headers: {'Content-Type': 'application/json'},
