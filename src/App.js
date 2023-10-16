@@ -101,6 +101,8 @@ class App extends React.Component {
 
             const faceLocations = this.calculateFaceLocation(result)
             this.displayFaceBoxes(faceLocations)
+        } else if (result.status.details === 'URL cannot be longer than 2000 characters.') {
+            alert(result.status.details)
         }
     })
     .catch(error => console.log('error', error));
